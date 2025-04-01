@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About ALFS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a, .navbar img {
+            float: left;
+            display: block;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a {
+		color: white;
+	}
+
+	.navbar a:hover {
+            background-color: #555;
+        }
+
+	.navbar img {
+            height: 20px;
+            width: 20px;
+            margin-top: 7px;
+            cursor: pointer;
+        }
+
+        /* Video and Text Container */
+        .container {
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        iframe {
+            width: 80%;
+            height: 450px;
+            border: none;
+        }
+
+        .text-block {
+            margin-top: 20px;
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+	<!-- Icon with Link -->
+        <a href="index.html" target="_blank">
+            <img src="web images/Gheleon.PNG" alt="Icon">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="https://github.com/InstantiatedHeartbreak" target="_blank">Resources</a>
+    </div>
+
+    <!-- Video and Text Block -->
+    <div class="container">
+        <!-- Embedded Video -->
+        <iframe 
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/zsbm-iIOQpQ" 
+            title="YouTube video" 
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
+
+        <!-- Text Block -->
+        <div class="text-block">
+            <p>
+                Desc desc desc desc
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
