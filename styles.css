@@ -8,9 +8,20 @@
     overflow: hidden;
 }
 
+/* FLEX CONTAINER */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+/* NAV LINKS */
+.nav-links {
+    display: flex;
+}
+
 .navbar a {
-    float: left;
-    display: block;
     color: white;
     text-align: center;
     padding: 14px 20px;
@@ -21,17 +32,19 @@
     background-color: #555;
 }
 
-/* Page content spacing */
-.container {
-    padding: 20px;
-    margin: 20px;
-}
 /* FLAG BUTTON */
 .lang-toggle {
     background: none;
     border: none;
     font-size: 1.6rem;
     cursor: pointer;
+    color: white;
+}
+
+/* Page content spacing */
+.container {
+    padding: 20px;
+    margin: 20px;
 }
 
 /* MOBILE */
